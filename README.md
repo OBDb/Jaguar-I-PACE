@@ -2,6 +2,10 @@
 
 This repository contains signal set configurations for the Jaguar I-PACE, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the Jaguar I-PACE.
 
+## References
+
+- Jaguar I-PACE pids: (archival copy: https://docs.google.com/spreadsheets/d/1AT4QJkAtYX3FpPnKTYdozkwdub3uJB9rm_odbR6I-6Y/edit?gid=1749425143#gid=1749425143)
+
 ## Generations
 
 The Jaguar I-PACE has had one generation so far:
