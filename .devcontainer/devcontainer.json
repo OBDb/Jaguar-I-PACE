@@ -16,7 +16,7 @@
     },
 
     "postCreateCommand": "pip install pytest",
-    "postAttachCommand": "cd tests/schemas && git pull || git clone https://github.com/OBDb/.schemas.git tests/schemas",
+    "postAttachCommand": "pushd tests/schemas && git pull && popd || git clone https://github.com/OBDb/.schemas.git tests/schemas",
 
     "remoteUser": "vscode"
 }
