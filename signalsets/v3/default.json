@@ -1,5 +1,4 @@
-{ "diagnosticLevel": "22",
-  "commands": [
+{ "commands": [
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
     {"id": "IPACE_PARKED", "path": "Movement", "fmt": { "len": 8, "max": 1, "unit": "noyes" }, "name": "Parked?"}
