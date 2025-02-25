@@ -7,6 +7,10 @@
   "signals": [
     {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
   ]},
+{ "hdr": "733", "cmd": {"22": "9924"}, "freq": 30,
+  "signals": [
+    {"id": "IPACE_INSIDE_T", "path": "Climate", "fmt": { "len": 8, "max": 100000, "min": -50, "unit": "celsius" }, "name": "Inside Temperature"}
+  ]},
 { "hdr": "751", "cmd": {"22": "2076"}, "freq": 5,
   "signals": [
     {"id": "IPACE_TP_FL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
@@ -45,7 +49,11 @@
   ]},
 { "hdr": "7E4", "cmd": {"22": "4910"}, "freq": 5,
   "signals": [
-    {"id": "IPACE_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "IPACE_SOC", "path": "Battery", "fmt": {"len": 16, "max": 100, "div": 93.9, "unit": "percent", "add": -2.5}, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E4", "cmd": {"22": "4910"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_SOC_AVG", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Average State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 5,
   "signals": [
