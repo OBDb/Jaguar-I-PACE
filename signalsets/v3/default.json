@@ -7,9 +7,9 @@
   "signals": [
     {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
   ]},
-{ "hdr": "733", "cmd": {"22": "9924"}, "freq": 30,
+{ "hdr": "733", "cmd": {"22": "DD04"}, "freq": 30,
   "signals": [
-    {"id": "IPACE_INSIDE_T", "path": "Climate", "fmt": { "len": 8, "max": 100000, "min": -50, "unit": "celsius" }, "name": "Inside Temperature"}
+    {"id": "IPACE_CABIN_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 100000, "min": -50, "unit": "celsius" }, "name": "Cabin Temperature"}
   ]},
 { "hdr": "751", "cmd": {"22": "2076"}, "freq": 5,
   "signals": [
