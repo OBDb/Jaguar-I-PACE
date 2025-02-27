@@ -51,10 +51,6 @@
   "signals": [
     {"id": "IPACE_SOC", "path": "Battery", "fmt": {"len": 16, "max": 100, "div": 93.9, "unit": "percent", "add": -2.5}, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E4", "cmd": {"22": "4910"}, "freq": 5,
-  "signals": [
-    {"id": "IPACE_SOC_AVG", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Average State of charge", "suggestedMetric": "stateOfCharge"}
-  ]},
 { "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 5,
   "signals": [
     {"id": "IPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 220, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
@@ -66,6 +62,16 @@
 { "hdr": "7E4", "cmd": {"22": "4904"}, "freq": 5,
   "signals": [
     {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
+  ]}
+{ "hdr": "7E5", "cmd": {"22":"0000"}, "freq": 4,
+  "signals": [
+    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4,
+        "map": {
+          "9": "Initializing",
+          "6": "Charging",
+          "10": "Waiting",
+          "0": "" },
+      "unit": "normal"}, "name": "Vehicle State"}
   ]}
 ]
 }
