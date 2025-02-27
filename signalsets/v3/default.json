@@ -63,10 +63,6 @@
   "signals": [
     {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
   ]},
-{ "hdr": "7E5", "cmd": {"22":"FE0C"}, "freq": 4,
-  "signals": [
-    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4, "max": 100, "unit": "scalar"}, "name": "Vehicle State"}
-  ]},
 { "hdr": "751", "cmd": {"22": "2A0A"}, "freq": 5,
   "signals": [
     {"id": "IPACE_TT_FL", "path": "Tires", "fmt": {"len": 8, "max": 80, "min": -40, "add": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
