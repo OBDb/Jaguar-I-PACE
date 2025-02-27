@@ -62,16 +62,26 @@
 { "hdr": "7E4", "cmd": {"22": "4904"}, "freq": 5,
   "signals": [
     {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
-  ]}
-{ "hdr": "7E5", "cmd": {"22":"0000"}, "freq": 4,
+  ]},
+{ "hdr": "7E5", "cmd": {"22":"FE0C"}, "freq": 4,
   "signals": [
-    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4,
-        "map": {
-          "9": "Initializing",
-          "6": "Charging",
-          "10": "Waiting",
-          "0": "" },
-      "unit": "normal"}, "name": "Vehicle State"}
+    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4, "unit": "scalar"}, "name": "Vehicle State"}
+  ]},
+{ "hdr": "751", "cmd": {"22": "2A0A"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_TT_FL", "path": "Tires", "fmt": {"len": 8, "max": 80, "min": -40, "add": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
+  ]},
+{ "hdr": "751", "cmd": {"22": "2A0B"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_TT_FR", "path": "Tires", "fmt": {"len": 8, "max": 80, "min": -40, "add": -50, "unit": "celsius" }, "name": "Front right tire temperature"}
+  ]},
+{ "hdr": "751", "cmd": {"22": "2A0C"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_TT_RR", "path": "Tires", "fmt": {"len": 8, "max": 80, "min": -40, "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
+  ]},
+{ "hdr": "751", "cmd": {"22": "2A0D"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_TT_RL", "path": "Tires", "fmt": {"len": 8, "max": 80, "min": -40, "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]}
 ]
 }
