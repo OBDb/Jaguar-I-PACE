@@ -65,7 +65,7 @@
   ]},
 { "hdr": "7E5", "cmd": {"22":"FE0C"}, "freq": 4,
   "signals": [
-    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4, "unit": "scalar"}, "name": "Vehicle State"}
+    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": {"bix": 0, "len": 4, "max": 100, "unit": "scalar"}, "name": "Vehicle State"}
   ]},
 { "hdr": "751", "cmd": {"22": "2A0A"}, "freq": 5,
   "signals": [
