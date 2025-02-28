@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
-    {"id": "IPACE_PARKED", "path": "Movement", "fmt": { "len": 8, "max": 1, "unit": "noyes" }, "name": "Parked?"}
+    {"id": "IPACE_PARKED", "path": "Movement", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Parked?"}
   ]},
 { "hdr": "733", "cmd": {"22": "9924"}, "freq": 30,
   "signals": [
