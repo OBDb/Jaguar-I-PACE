@@ -1,4 +1,13 @@
 { "commands": [
+{ "hdr": "732", "cmd": {"22": "FE0C"}, "freq": 1,
+  "signals": [
+    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": { "bix": 0, "len": 4, "map": {
+          "0": "",
+          "6": "Charging",
+          "9": "Initializing",
+          "10": "Waiting"
+        }, "unit": "normal" }, "name": "Vehicle State"}
+  ]},
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
     {"id": "IPACE_PARKED", "path": "Movement", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Parked?"}
