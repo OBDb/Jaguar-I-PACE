@@ -6,7 +6,7 @@
           "6": "Charging",
           "9": "Initializing",
           "10": "Waiting"
-        }, "unit": "normal" }, "name": "Vehicle State"}
+        }, "max": 20, "unit": "normal" }, "name": "Vehicle State"}
   ]},
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
