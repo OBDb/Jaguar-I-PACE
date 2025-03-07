@@ -1,12 +1,12 @@
 { "commands": [
 { "hdr": "7E5", "cmd": {"22": "FE0C"}, "freq": 1,
   "signals": [
-    {"id": "IPACE_VEHICLE_STATE", "path": "System", "fmt": { "bix": 0, "len": 4, "map": {
-          "0": "",
-          "6": "Charging",
-          "9": "Initializing",
-          "10": "Waiting"
-        }}, "name": "Vehicle State"}
+    {"id": "IPACE_VEHICLE_STATE", "path": "System", "name": "Vehicle State", "fmt": { "bix": 0, "len": 4, "map": {
+          "0":  { "description": "Not Charging",   "value": "Not Charging" },
+          "6":  { "description": "Charging",       "value": "Charging" },
+          "9":  { "description": "Initializing",   "value": "Initializing" },
+          "10": { "description": "Waiting",        "value": "Waiting" }
+        }}}
   ]},
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
