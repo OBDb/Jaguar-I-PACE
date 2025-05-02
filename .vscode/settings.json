@@ -1,7 +1,11 @@
 {
     "python.testing.pytestArgs": [
-        "tests"
+        "tests",
+        "-xvs",
+        "-n",
+        "auto"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "files.trimTrailingWhitespace": true
 }
