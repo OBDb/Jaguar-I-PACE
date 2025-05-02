@@ -1,11 +1,11 @@
 { "commands": [
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
   "signals": [
-    {"id": "IPACE_PARKED", "path": "Movement", "fmt": { "len": 8, "max": 1, "unit": "noyes" }, "name": "Parked?"}
+    {"id": "IPACE_PARKED", "path": "Movement", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Parked?"}
   ]},
 { "hdr": "733", "cmd": {"22": "9924"}, "freq": 30,
   "signals": [
-    {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
+    {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
   ]},
 { "hdr": "751", "cmd": {"22": "2076"}, "freq": 5,
   "signals": [
@@ -31,9 +31,9 @@
   "signals": [
     {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
   ]},
-{ "hdr": "7E4", "cmd": {"22": "4907"}, "freq": 1,
+{ "hdr": "7E4", "cmd": {"22": "4907"}, "freq": 5,
   "signals": [
-    {"id": "IPACE_HVB_T", "path": "Battery", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
+    {"id": "IPACE_HVB_T", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
 { "hdr": "7E4", "cmd": {"22": "490C"}, "freq": 5,
   "signals": [
@@ -55,9 +55,9 @@
   "signals": [
     {"id": "IPACE_ODOMETER", "path": "Movement", "fmt": { "len": 24, "max": 1000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 5,
+{ "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 0.1,
   "signals": [
-    {"id": "IPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 220, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
+    {"id": "IPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
   ]}
 ]
 }
