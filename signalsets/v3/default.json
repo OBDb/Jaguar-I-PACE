@@ -23,9 +23,13 @@
   "signals": [
     {"id": "IPACE_TP_RL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "7E4", "cmd": {"22": "4918"}, "freq": 3600,
+{ "hdr": "7E4", "cmd": {"22": "4903"}, "freq": 5,
   "signals": [
-    {"id": "IPACE_HVB_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Battery state of health (average)", "suggestedMetric": "stateOfHealth"}
+    {"id": "IPACE_HVB_CELL_V_MAX", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Maximum Cell Voltage"}
+  ]},
+{ "hdr": "7E4", "cmd": {"22": "4904"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
   ]},
 { "hdr": "7E4", "cmd": {"22": "4907"}, "freq": 1,
   "signals": [
@@ -39,25 +43,21 @@
   "signals": [
     {"id": "IPACE_HVB_V", "path": "Battery", "fmt": { "len": 16, "max": 450, "div": 100, "unit": "volts" }, "name": "High voltage battery voltage"}
   ]},
-{ "hdr": "7E4", "cmd": {"22": "DD01"}, "freq": 5,
-  "signals": [
-    {"id": "IPACE_ODOMETER", "path": "Movement", "fmt": { "len": 24, "max": 1000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "7E4", "cmd": {"22": "4910"}, "freq": 5,
   "signals": [
     {"id": "IPACE_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
+{ "hdr": "7E4", "cmd": {"22": "4918"}, "freq": 3600,
+  "signals": [
+    {"id": "IPACE_HVB_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Battery state of health (average)", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "7E4", "cmd": {"22": "DD01"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_ODOMETER", "path": "Movement", "fmt": { "len": 24, "max": 1000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
 { "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 5,
   "signals": [
     {"id": "IPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 220, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
-  ]},
-{ "hdr": "7E4", "cmd": {"22": "4903"}, "freq": 5,
-  "signals": [
-    {"id": "IPACE_HVB_CELL_V_MAX", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Maximum Cell Voltage"}
-  ]},
-{ "hdr": "7E4", "cmd": {"22": "4904"}, "freq": 5,
-  "signals": [
-    {"id": "IPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Minimum Cell Voltage"}
   ]}
 ]
 }
