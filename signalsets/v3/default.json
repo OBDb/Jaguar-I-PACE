@@ -2,10 +2,10 @@
 { "hdr": "7E5", "cmd": {"22": "FE0C"}, "freq": 1,
   "signals": [
     {"id": "IPACE_VEHICLE_STATE", "path": "System", "name": "Vehicle State", "fmt": { "bix": 0, "len": 4, "map": {
-          "0":  { "description": "Not Charging",   "value": "Not Charging" },
-          "6":  { "description": "Charging",       "value": "Charging" },
-          "9":  { "description": "Initializing",   "value": "Initializing" },
-          "10": { "description": "Waiting",        "value": "Waiting" }
+          "0":  { "description": "Not charging",   "value": "NOT_CHARGING" },
+          "6":  { "description": "Charging",       "value": "CHARGING" },
+          "9":  { "description": "Initializing",   "value": "INIT" },
+          "10": { "description": "Waiting",        "value": "WAITING" }
         }}}
   ]},
 { "hdr": "732", "cmd": {"22": "D928"}, "freq": 1,
@@ -14,11 +14,11 @@
   ]},
 { "hdr": "733", "cmd": {"22": "9924"}, "freq": 30,
   "signals": [
-    {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
+    {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "733", "cmd": {"22": "DD04"}, "freq": 30,
   "signals": [
-    {"id": "IPACE_CABIN_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 100000, "min": -50, "add": -40, "unit": "celsius" }, "name": "Cabin Temperature"}
+    {"id": "IPACE_CABIN_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 100000, "min": -50, "add": -40, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
 { "hdr": "751", "cmd": {"22": "2076"}, "freq": 5,
   "signals": [
