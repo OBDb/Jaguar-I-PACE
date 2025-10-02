@@ -1,0 +1,5 @@
+command_id: 732.22D928
+test_cases:
+- expected_values:
+    IPACE_PARKED: 1
+  response: 73A0462D92803

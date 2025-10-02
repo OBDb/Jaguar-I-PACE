@@ -1,0 +1,5 @@
+command_id: 7E4.224918
+test_cases:
+- expected_values:
+    IPACE_HVB_SOH: 99
+  response: 7EC04624918C6
