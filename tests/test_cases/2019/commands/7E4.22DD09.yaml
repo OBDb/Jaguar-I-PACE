@@ -1,0 +1,8 @@
+command_id: 7E4.22DD09
+test_cases:
+- expected_values:
+    IPACE_VSS: 0
+  response: 7EC0462DD0900
+- expected_values:
+    IPACE_VSS: 106
+  response: 7EC0462DD096A

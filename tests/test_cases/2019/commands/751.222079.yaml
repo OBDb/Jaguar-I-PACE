@@ -1,0 +1,14 @@
+command_id: '751.222079'
+test_cases:
+- expected_values:
+    IPACE_TP_RL: 2.58124
+  response: 7590562207900BC
+- expected_values:
+    IPACE_TP_RL: 2.6087
+  response: 7590562207900BE
+- expected_values:
+    IPACE_TP_RL: 2.71854
+  response: 7590562207900C6
+- expected_values:
+    IPACE_TP_RL: 2.746
+  response: 7590562207900C8
