@@ -1,11 +1,29 @@
 command_id: '751.222079'
 test_cases:
 - expected_values:
+    IPACE_TP_RL: 2.49886
+  response: 7590562207900B6
+- expected_values:
+    IPACE_TP_RL: 2.52632
+  response: 7590562207900B8
+- expected_values:
+    IPACE_TP_RL: 2.55378
+  response: 7590562207900BA
+- expected_values:
     IPACE_TP_RL: 2.58124
   response: 7590562207900BC
 - expected_values:
     IPACE_TP_RL: 2.6087
   response: 7590562207900BE
+- expected_values:
+    IPACE_TP_RL: 2.63616
+  response: 7590562207900C0
+- expected_values:
+    IPACE_TP_RL: 2.66362
+  response: 7590562207900C2
+- expected_values:
+    IPACE_TP_RL: 2.69108
+  response: 7590562207900C4
 - expected_values:
     IPACE_TP_RL: 2.71854
   response: 7590562207900C6

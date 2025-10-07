@@ -1,6 +1,18 @@
 command_id: '733.229924'
 test_cases:
 - expected_values:
+    IPACE_AAT: 13.5
+  response: 73B046299246B
+- expected_values:
+    IPACE_AAT: 14
+  response: 73B046299246C
+- expected_values:
+    IPACE_AAT: 14.5
+  response: 73B046299246D
+- expected_values:
+    IPACE_AAT: 15
+  response: 73B046299246E
+- expected_values:
     IPACE_AAT: 17.5
   response: 73B0462992473
 - expected_values:
