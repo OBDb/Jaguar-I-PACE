@@ -13,6 +13,9 @@ test_cases:
     IPACE_AAT: 15
   response: 73B046299246E
 - expected_values:
+    IPACE_AAT: 16.5
+  response: 73B0462992471
+- expected_values:
     IPACE_AAT: 17.5
   response: 73B0462992473
 - expected_values:
