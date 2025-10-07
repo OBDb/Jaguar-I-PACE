@@ -4,11 +4,11 @@ test_cases:
     IPACE_SOC: 80.87
   response: 7EC056249101F97
 - expected_values:
-    IPACE_SOC: 84.32
-  response: 7EC0562491020F0
-- expected_values:
     IPACE_SOC: 84.52
   response: 7EC056249102104
 - expected_values:
-    IPACE_SOC: 88.8
-  response: 7EC0562491022B0
+    IPACE_SOC: 89.59
+  response: 7EC0562491022FF
+- expected_values:
+    IPACE_SOC: 95.53
+  response: 7EC056249102551

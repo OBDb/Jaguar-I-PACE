@@ -4,5 +4,8 @@ test_cases:
     IPACE_HVB_CELL_V_MIN: 3905
   response: 7EC056249040F41
 - expected_values:
-    IPACE_HVB_CELL_V_MIN: 4044
-  response: 7EC056249040FCC
+    IPACE_HVB_CELL_V_MIN: 4089
+  response: 7EC056249040FF9
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 4096
+  response: 7EC056249041000

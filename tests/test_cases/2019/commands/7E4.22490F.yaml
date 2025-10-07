@@ -7,8 +7,8 @@ test_cases:
     IPACE_HVB_V: 425.03
   response: 7EC0562490FA607
 - expected_values:
-    IPACE_HVB_V: 435.65
-  response: 7EC0562490FAA2D
+    IPACE_HVB_V: 442.85
+  response: 7EC0562490FACFD
 - expected_values:
-    IPACE_HVB_V: 437.72
-  response: 7EC0562490FAAFC
+    IPACE_HVB_V: 446.15
+  response: 7EC0562490FAE47
