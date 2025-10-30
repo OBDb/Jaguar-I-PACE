@@ -1,0 +1,11 @@
+command_id: 7E4.22DD01
+test_cases:
+- expected_values:
+    IPACE_ODOMETER: 65098
+  response: 7EC0662DD0100FE4A
+- expected_values:
+    IPACE_ODOMETER: 65100
+  response: 7EC0662DD0100FE4C
+- expected_values:
+    IPACE_ODOMETER: 65187
+  response: 7EC0662DD0100FEA3

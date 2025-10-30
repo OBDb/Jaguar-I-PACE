@@ -1,0 +1,14 @@
+command_id: 7E4.224904
+test_cases:
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3672
+  response: 7EC056249040E58
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3675
+  response: 7EC056249040E5B
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3864
+  response: 7EC056249040F18
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3880
+  response: 7EC056249040F28
