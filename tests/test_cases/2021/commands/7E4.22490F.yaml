@@ -1,0 +1,14 @@
+command_id: 7E4.22490F
+test_cases:
+- expected_values:
+    IPACE_HVB_V: 397.43
+  response: 7EC0562490F9B3F
+- expected_values:
+    IPACE_HVB_V: 397.68
+  response: 7EC0562490F9B58
+- expected_values:
+    IPACE_HVB_V: 417.94
+  response: 7EC0562490FA342
+- expected_values:
+    IPACE_HVB_V: 418.92
+  response: 7EC0562490FA3A4

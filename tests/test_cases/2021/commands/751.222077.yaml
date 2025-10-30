@@ -1,0 +1,8 @@
+command_id: '751.222077'
+test_cases:
+- expected_values:
+    IPACE_TP_FR: 2.6087
+  response: 7590562207700BE
+- expected_values:
+    IPACE_TP_FR: 2.63616
+  response: 7590562207700C0
