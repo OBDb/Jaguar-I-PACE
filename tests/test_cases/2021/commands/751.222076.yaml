@@ -1,5 +1,8 @@
 command_id: '751.222076'
 test_cases:
 - expected_values:
+    IPACE_TP_FL: 2.4714
+  response: 7590562207600B4
+- expected_values:
     IPACE_TP_FL: 2.6087
   response: 7590562207600BE

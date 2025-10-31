@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     IPACE_HVB_CELL_V_MAX: 3897
   response: 7EC056249030F39
+- expected_values:
+    IPACE_HVB_CELL_V_MAX: 4130
+  response: 7EC056249031022
