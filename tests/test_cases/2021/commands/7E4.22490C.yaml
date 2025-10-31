@@ -8,6 +8,9 @@ test_cases:
   response: 7EC0562490C8004
 - expected_values:
     IPACE_HVB_CURR: -500
+  response: 7EC0562490C8193
+- expected_values:
+    IPACE_HVB_CURR: -500
   response: 7EC0562490C88B6
 - expected_values:
     IPACE_HVB_CURR: -500

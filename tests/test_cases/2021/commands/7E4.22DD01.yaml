@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     IPACE_ODOMETER: 65187
   response: 7EC0662DD0100FEA3
+- expected_values:
+    IPACE_ODOMETER: 65346
+  response: 7EC0662DD0100FF42

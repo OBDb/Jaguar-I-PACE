@@ -1,6 +1,9 @@
 command_id: 7E4.224907
 test_cases:
 - expected_values:
+    IPACE_HVB_T: 10.5
+  response: 7EC0462490765
+- expected_values:
     IPACE_HVB_T: 15
   response: 7EC046249076E
 - expected_values:

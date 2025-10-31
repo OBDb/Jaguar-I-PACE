@@ -4,6 +4,9 @@ test_cases:
     IPACE_VSS: 0
   response: 7EC0462DD0900
 - expected_values:
+    IPACE_VSS: 1
+  response: 7EC0462DD0901
+- expected_values:
     IPACE_VSS: 85
   response: 7EC0462DD0955
 - expected_values:
