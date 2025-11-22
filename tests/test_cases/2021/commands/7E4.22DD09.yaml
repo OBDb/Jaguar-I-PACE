@@ -7,6 +7,24 @@ test_cases:
     IPACE_VSS: 1
   response: 7EC0462DD0901
 - expected_values:
+    IPACE_VSS: 18
+  response: 7EC0462DD0912
+- expected_values:
+    IPACE_VSS: 27
+  response: 7EC0462DD091B
+- expected_values:
+    IPACE_VSS: 38
+  response: 7EC0462DD0926
+- expected_values:
+    IPACE_VSS: 40
+  response: 7EC0462DD0928
+- expected_values:
+    IPACE_VSS: 43
+  response: 7EC0462DD092B
+- expected_values:
+    IPACE_VSS: 45
+  response: 7EC0462DD092D
+- expected_values:
     IPACE_VSS: 85
   response: 7EC0462DD0955
 - expected_values:
