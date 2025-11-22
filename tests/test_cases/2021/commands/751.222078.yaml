@@ -7,8 +7,17 @@ test_cases:
     IPACE_TP_RR: 2.44394
   response: 7590562207800B2
 - expected_values:
+    IPACE_TP_RR: 2.4714
+  response: 7590562207800B4
+- expected_values:
+    IPACE_TP_RR: 2.49886
+  response: 7590562207800B6
+- expected_values:
     IPACE_TP_RR: 2.52632
   response: 7590562207800B8
+- expected_values:
+    IPACE_TP_RR: 2.55378
+  response: 7590562207800BA
 - expected_values:
     IPACE_TP_RR: 2.63616
   response: 7590562207800C0
