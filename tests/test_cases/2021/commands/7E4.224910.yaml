@@ -10,5 +10,5 @@ test_cases:
     IPACE_SOC: 61.46
   response: 7EC056249101802
 - expected_values:
-    IPACE_SOC: 95.97
-  response: 7EC05624910257D
+    IPACE_SOC: 95.48
+  response: 7EC05624910254C
