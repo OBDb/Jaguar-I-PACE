@@ -1,0 +1,8 @@
+command_id: 7E4.22490C
+test_cases:
+- expected_values:
+    IPACE_HVB_CURR: -500
+  response: 7EC0562490C8001
+- expected_values:
+    IPACE_HVB_CURR: -500
+  response: 7EC0562490C801F
