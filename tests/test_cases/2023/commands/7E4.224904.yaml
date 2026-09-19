@@ -1,5 +1,23 @@
 command_id: 7E4.224904
 test_cases:
 - expected_values:
+    IPACE_HVB_CELL_V_MIN: 3717
+  response: 7EC056249040E85
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3733
+  response: 7EC056249040E95
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3734
+  response: 7EC056249040E96
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3735
+  response: 7EC056249040E97
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3736
+  response: 7EC056249040E98
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3737
+  response: 7EC056249040E99
+- expected_values:
     IPACE_HVB_CELL_V_MIN: 3739
   response: 7EC056249040E9B

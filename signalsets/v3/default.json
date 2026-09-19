@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "732", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "732", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_PARKED", "path": "Movement", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Parked?"}
   ]},
@@ -7,19 +7,19 @@
   "signals": [
     {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
   ]},
-{ "hdr": "751", "cmd": {"22": "2076"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "751", "cmd": {"22": "2076"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_FL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "751", "cmd": {"22": "2077"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "751", "cmd": {"22": "2077"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_FR", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "751", "cmd": {"22": "2078"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "751", "cmd": {"22": "2078"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_RR", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "751", "cmd": {"22": "2079"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "751", "cmd": {"22": "2079"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_RL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
