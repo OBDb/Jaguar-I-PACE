@@ -1,32 +1,14 @@
 command_id: 7E4.22490F
 test_cases:
 - expected_values:
-    IPACE_HVB_V: 406.34
-  response: 7EC0562490F9EBA
+    IPACE_HVB_V: 399.63
+  response: 7EC0562490F9C1B
 - expected_values:
-    IPACE_HVB_V: 406.47
-  response: 7EC0562490F9EC7
+    IPACE_HVB_V: 401.95
+  response: 7EC0562490F9D03
 - expected_values:
-    IPACE_HVB_V: 406.71
-  response: 7EC0562490F9EDF
-- expected_values:
-    IPACE_HVB_V: 406.83
-  response: 7EC0562490F9EEB
-- expected_values:
-    IPACE_HVB_V: 406.95
-  response: 7EC0562490F9EF7
-- expected_values:
-    IPACE_HVB_V: 407.2
-  response: 7EC0562490F9F10
-- expected_values:
-    IPACE_HVB_V: 407.32
-  response: 7EC0562490F9F1C
-- expected_values:
-    IPACE_HVB_V: 407.44
-  response: 7EC0562490F9F28
+    IPACE_HVB_V: 409.52
+  response: 7EC0562490F9FF8
 - expected_values:
     IPACE_HVB_V: 425.03
   response: 7EC0562490FA607
-- expected_values:
-    IPACE_HVB_V: 425.39
-  response: 7EC0562490FA62B

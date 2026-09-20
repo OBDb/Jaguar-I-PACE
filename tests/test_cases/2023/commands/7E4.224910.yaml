@@ -1,11 +1,14 @@
 command_id: 7E4.224910
 test_cases:
 - expected_values:
-    IPACE_SOC: 62.2
-  response: 7EC05624910184C
+    IPACE_SOC: 61.56
+  response: 7EC05624910180C
 - expected_values:
-    IPACE_SOC: 62.79
-  response: 7EC056249101887
+    IPACE_SOC: 63.99
+  response: 7EC0562491018FF
+- expected_values:
+    IPACE_SOC: 64.03
+  response: 7EC056249101903
 - expected_values:
     IPACE_SOC: 77.68
   response: 7EC056249101E58
