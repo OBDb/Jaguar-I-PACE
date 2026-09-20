@@ -21,3 +21,9 @@ test_cases:
 - expected_values:
     IPACE_HVB_CELL_V_MIN: 3739
   response: 7EC056249040E9B
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3913
+  response: 7EC056249040F49
+- expected_values:
+    IPACE_HVB_CELL_V_MIN: 3914
+  response: 7EC056249040F4A
