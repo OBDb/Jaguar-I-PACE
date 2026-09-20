@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     IPACE_HVB_V: 407.44
   response: 7EC0562490F9F28
+- expected_values:
+    IPACE_HVB_V: 425.03
+  response: 7EC0562490FA607
+- expected_values:
+    IPACE_HVB_V: 425.39
+  response: 7EC0562490FA62B

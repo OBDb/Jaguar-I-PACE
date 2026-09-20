@@ -4,17 +4,5 @@ test_cases:
     IPACE_VSS: 0
   response: 7EC0462DD0900
 - expected_values:
-    IPACE_VSS: 1
-  response: 7EC0462DD0901
-- expected_values:
-    IPACE_VSS: 2
-  response: 7EC0462DD0902
-- expected_values:
-    IPACE_VSS: 3
-  response: 7EC0462DD0903
-- expected_values:
-    IPACE_VSS: 5
-  response: 7EC0462DD0905
-- expected_values:
-    IPACE_VSS: 6
-  response: 7EC0462DD0906
+    IPACE_VSS: 29
+  response: 7EC0462DD091D
