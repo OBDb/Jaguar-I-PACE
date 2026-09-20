@@ -1,11 +1,11 @@
 command_id: 7E4.224903
 test_cases:
 - expected_values:
-    IPACE_HVB_CELL_V_MAX: 3757
-  response: 7EC056249030EAD
+    IPACE_HVB_CELL_V_MAX: 3685
+  response: 7EC056249030E65
 - expected_values:
-    IPACE_HVB_CELL_V_MAX: 3774
-  response: 7EC056249030EBE
+    IPACE_HVB_CELL_V_MAX: 3839
+  response: 7EC056249030EFF
 - expected_values:
-    IPACE_HVB_CELL_V_MAX: 3923
-  response: 7EC056249030F53
+    IPACE_HVB_CELL_V_MAX: 3841
+  response: 7EC056249030F01
