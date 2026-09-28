@@ -7,6 +7,10 @@
   "signals": [
     {"id": "IPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside Temperature"}
   ]},
+{ "hdr": "733", "dbg": true, "cmd": {"22": "DD04"}, "freq": 30,
+  "signals": [
+    {"id": "IPACE_CABIN_T", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cabin temperature"}
+  ]},
 { "hdr": "751", "cmd": {"22": "2076"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_FL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
@@ -22,6 +26,26 @@
 { "hdr": "751", "cmd": {"22": "2079"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_TP_RL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 5, "mul": 0.01373, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "751", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 15,
+  "signals": [
+    {"id": "IPACE_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front left tire temperature", "suggestedMetric": "frontLeftTireTemperature"}
+  ]},
+{ "hdr": "751", "dbg": true, "cmd": {"22": "2A0B"}, "freq": 15,
+  "signals": [
+    {"id": "IPACE_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"}
+  ]},
+{ "hdr": "751", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 15,
+  "signals": [
+    {"id": "IPACE_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature", "suggestedMetric": "rearRightTireTemperature"}
+  ]},
+{ "hdr": "751", "dbg": true, "cmd": {"22": "2A0D"}, "freq": 15,
+  "signals": [
+    {"id": "IPACE_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature", "suggestedMetric": "rearLeftTireTemperature"}
+  ]},
+{ "hdr": "754", "fcm1": true, "dbg": true, "cmd": {"22": "A0A6"}, "freq": 60,
+  "signals": [
+    {"id": "IPACE_GPS_SATS", "path": "GPS", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites in view"}
   ]},
 { "hdr": "7E4", "cmd": {"22": "4903"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
@@ -58,6 +82,24 @@
 { "hdr": "7E4", "cmd": {"22": "DD09"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2024 },
   "signals": [
     {"id": "IPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E5", "dbg": true, "cmd": {"22": "FD37"}, "freq": 10,
+  "signals": [
+    {"id": "IPACE_CHG_STATE", "path": "Battery", "name": "Charging state", "fmt": {"bix": 8, "len": 8, "map": {
+          "29": { "description": "DC fast charging", "value": "DC_CHARGING" },
+          "48": { "description": "AC charging",      "value": "AC_CHARGING" }
+        }}
+    }
+  ]},
+{ "hdr": "7E5", "dbg": true, "cmd": {"22": "FE0C"}, "freq": 5,
+  "signals": [
+    {"id": "IPACE_VEHICLE_STATE", "path": "Battery", "name": "Charging state, vehicle", "fmt": {"len": 4, "map": {
+          "0":  { "description": "Not charging", "value": "NOT_CHARGING" },
+          "6":  { "description": "Charging",     "value": "CHARGING" },
+          "9":  { "description": "Initializing", "value": "INIT" },
+          "10": { "description": "Waiting",      "value": "WAITING" }
+        }}
+    }
   ]}
 ]
 }
