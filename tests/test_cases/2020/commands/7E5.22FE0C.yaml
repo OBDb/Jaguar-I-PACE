@@ -1,0 +1,5 @@
+command_id: 7E5.22FE0C
+test_cases:
+- expected_values:
+    IPACE_VEHICLE_STATE: NOT_CHARGING
+  response: 7ED0662FE0C0D0000

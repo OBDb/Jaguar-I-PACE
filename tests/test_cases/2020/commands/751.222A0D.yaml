@@ -1,0 +1,14 @@
+command_id: 751.222A0D
+test_cases:
+- expected_values:
+    IPACE_TT_RL: 18
+  response: 75904622A0D44
+- expected_values:
+    IPACE_TT_RL: 19
+  response: 75904622A0D45
+- expected_values:
+    IPACE_TT_RL: 20
+  response: 75904622A0D46
+- expected_values:
+    IPACE_TT_RL: 21
+  response: 75904622A0D47

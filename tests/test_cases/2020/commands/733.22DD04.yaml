@@ -1,0 +1,17 @@
+command_id: 733.22DD04
+test_cases:
+- expected_values:
+    IPACE_CABIN_T: 1
+  response: 73B0462DD0429
+- expected_values:
+    IPACE_CABIN_T: 22
+  response: 73B0462DD043E
+- expected_values:
+    IPACE_CABIN_T: 23
+  response: 73B0462DD043F
+- expected_values:
+    IPACE_CABIN_T: 24
+  response: 73B0462DD0440
+- expected_values:
+    IPACE_CABIN_T: 25
+  response: 73B0462DD0441

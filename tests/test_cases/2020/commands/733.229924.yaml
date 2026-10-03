@@ -1,0 +1,14 @@
+command_id: '733.229924'
+test_cases:
+- expected_values:
+    IPACE_AAT: 15.5
+  response: 73B046299246F
+- expected_values:
+    IPACE_AAT: 16
+  response: 73B0462992470
+- expected_values:
+    IPACE_AAT: 16.5
+  response: 73B0462992471
+- expected_values:
+    IPACE_AAT: 17
+  response: 73B0462992472
