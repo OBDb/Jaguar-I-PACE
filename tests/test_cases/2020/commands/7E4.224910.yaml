@@ -1,0 +1,11 @@
+command_id: 7E4.224910
+test_cases:
+- expected_values:
+    IPACE_SOC: 17.2
+  response: 7EC0562491006B8
+- expected_values:
+    IPACE_SOC: 17.82
+  response: 7EC0562491006F6
+- expected_values:
+    IPACE_SOC: 17.95
+  response: 7EC056249100703

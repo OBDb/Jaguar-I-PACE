@@ -1,0 +1,37 @@
+command_id: 754.22A0A6|fc=1
+test_cases:
+- expected_values:
+    IPACE_GPS_SATS: 31
+  response: |-
+    75C100D62A0A6006C40
+    75C2152FFF37557031F
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C40
+    75C219AFFF3788D0320
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C42
+    75C2121FFF37A0F0320
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C44
+    75C21E0FFF3723D0320
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C47
+    75C2127FFF36F4C0320
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C47
+    75C21CBFFF36B2D0320
+- expected_values:
+    IPACE_GPS_SATS: 32
+  response: |-
+    75C100D62A0A6006C4D
+    75C2129FFF369D10320
